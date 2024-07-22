@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <title>Piotr Sieński</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header>
+        <h1 id="start">Piotr Sieński - moja wizytówka</h1>
+    </header>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__listItem"><a class="link" href="#o-mnie">O mnie</a></li>
+            <li class="nav__listItem"><a class="link" href="#moje-hobby">Moje hobby</a></li>
+            <li class="nav__listItem"><a class="link" href="#wrestling">Wrestling</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section">
+            <h2>Poznajmy się!</h2>
+            <button class="section__btn js-button">Schowaj mnie</button> <br>
+            <img id="o-mnie" class="section__photo js-photo" src="https://i.ibb.co/tLS2DtW/IMG-20240501-101801.jpg"
+                alt="zdjęcie z tegorocznej majówki">
+            <p class="section__text section__text--introduction">Jestem Piotrek, mam prawie 27 lat i po <strong>ponad
+                    rocznej</strong> przerwie wracam do
+                nauki kodowania. Obecnie pracuje jako operator wóżka widłowego i co prawda sprawia mi to <em>jakąś
+                    tam</em>
+                frajdę, to <b>zdecydowanie lepiej</b> się czuję
+                pracując przy komputerze za pomocą klawiatury i myszki.
+            </p>
+        </section>
+
+        <a class="link goBack" href="#start">Wróc na początek strony</a>
+        <section id="moje-hobby" class="section">
+            <h3 class="section__header">Moje hobby!</h3>
+            <div class="section__text">Do moich głównych zainteresowań należą od małego na pewno gry komputerowe i
+                wrestling.
+                Byłem
+                dzieciakiem który przychodził z Gameboyem do szkoły i grał w pokemony, a potem w domu oglądał jak faceci
+                się
+                tłuką krzesłami i skaczą z narożników. Poza tym muzyka wszelka od<span class="section__text section__text--old"> 80's synth popów,
+                    new wave'u i rocka</span> do
+                <span class="section__text section__text--new">współczesnego rapu i lofi hip hopu. </span>
+            </div>
+        </section>
+        <a class="link goBack" href="#start">Wróc na początek strony</a>
+        <section id="wrestling" class="section">
+            <h3 class="section__header">World Wrestling Entertainment - ciekawostki</h3>
+            <div class="section__tableContainer">
+                <table class="section__table">
+                    <caption class="section__caption">Karta walk gali Clash at the Castle 2024</caption>
+                    <tbody>
+                        <tr class=section__tableRow>
+                            <th class="section__tableCell section__tableCell--header" scope="col">Nr.</th>
+                            <th class="section__tableCell section__tableCell--header" scope="col">Zawodnicy</th>
+                            <th class="section__tableCell section__tableCell--header" scope="col">Stypulacja</th>
+                            <th class="section__tableCell section__tableCell--header" scope="col">Wygrana</th>
+                        </tr>
+                        <tr class=section__tableRow>
+                            <th class="section__tableCell section__tableCell--header" scope="row">1</th>
+                            <td class="section__tableCell">Cody Rhodes (c) vs. AJ Styles</td>
+                            <td class="section__tableCell">"I Quit" match o Undisputed WWE Championship</td>
+                            <td class="section__tableCell section__tableCell--winner">Cody Rhodes</td>
+                        </tr>
+                        <tr class=section__tableRow>
+                            <th class="section__tableCell section__tableCell--header" scope="row">2</th>
+                            <td class="section__tableCell">The Unholy Union (Alba Fyre i Isla Dawn) vs. Bianca Belair i
+                                Jade
+                                Cargill
+                                (c)
+                                vs. Shayna
+                                Baszler i Zoey Stark</td>
+                            <td class="section__tableCell">Triple threat tag team match o WWE Women's Tag Team
+                                Championship</td>
+                            <td class="section__tableCell section__tableCell--winner">The Unholy Union</td>
+                        </tr>
+                        <tr class=section__tableRow>
+                            <th class="section__tableCell section__tableCell--header" scope="row">3</th>
+                            <td class="section__tableCell">Sami Zayn (c) vs. Chad Gable</td>
+                            <td class="section__tableCell">Singles match o WWE Intercontinental Championship</td>
+                            <td class="section__tableCell section__tableCell--winner">Sami Zayn</td>
+                        </tr>
+                        <tr class=section__tableRow>
+                            <th class="section__tableCell section__tableCell--header" scope="row">4</th>
+                            <td class="section__tableCell">Bayley (c) vs. Piper Niven</td>
+                            <td class="section__tableCell">Singles match o WWE Women's Championship</td>
+                            <td class="section__tableCell section__tableCell--winner">Bayley</td>
+                        </tr>
+                        <tr class=section__tableRow>
+                            <th class="section__tableCell section__tableCell--header" scope="row">5</th>
+                            <td class="section__tableCell">Damian Priest (c) vs Drew McIntyre</td>
+                            <td class="section__tableCell">Singles match o World Heavyweight Championship</td>
+                            <td class="section__tableCell section__tableCell--winner">Damian Priest</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="section__tfoot">
+                        <tr>
+                            <td class="section__tableCell" colspan="4">(c) - (champion), oznacza mistrza broniącego
+                                tytuł w danej
+                                walce</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <a class="link goBack" href="#start">Wróc na początek strony</a>
+    </main>
+
+
+    <footer class=footer>2024, Piotr Sieński, <a class="link" href="mailto:piotrssk@gmail.com">piotrssk@gmail.com</a>
+    </footer>
+</body>
+
+</html>

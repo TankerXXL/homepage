@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.section__header {
+    font-size: 24px;
+    text-shadow: 7px 5px 5px rgb(42, 177, 25);
+}
+
+
+.section__photo {
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.section__text {
+    border-radius: 10px;
+    background-color: rgb(226, 230, 14);
+    text-align: justify;
+}
+
+
+.section__text--introduction {
+    border-radius: 6px;
+    background-color: rgb(255, 179, 39);
+}
+
+.section__text--old {
+    color: blue;
+}
+
+.section__text--new {
+    color: rgb(245, 0, 0);
+
+}

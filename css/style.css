@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+    background-color: rgb(179, 231, 130);
+}
+
+.footer {
+    padding-top: 10%;
+}
+
+.link {
+    color: rgb(117, 8, 63);
+}
+
+.link:visited {
+    color: rgb(117, 8, 63);
+}
+
+
+.link:focus {
+    outline: 4px solid red;
+}
+
+.link:hover {
+    color: red;
+}
+
+.link:active {
+    color: rgb(0, 0, 0);
+}
+
+.goBack {
+    margin-right: 804px;
+}

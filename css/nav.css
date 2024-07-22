@@ -1,0 +1,19 @@
+
+.nav__list {
+    list-style-type: none;
+    padding: 40px 40px;
+}
+
+.nav__listItem {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    border: 5px solid rgb(40, 12, 199);
+    background-color: rgb(38, 161, 7);
+    max-width: 600px;
+}
+
+.nav__listItem:hover {
+    background-color: rgb(32, 243, 4);
+}
