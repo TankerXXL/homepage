@@ -13,7 +13,7 @@ html {
 }
 
 .section__table {
-    width: 100%;
+    max-width: fit-content;
     font-size: 20px;
     border-collapse: collapse;
     box-shadow: -10px -8px 13px 3px #E5D437;

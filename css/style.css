@@ -19,7 +19,7 @@ html {
     font-weight: 400;
     line-height: 1.5;
     margin: auto;
-    max-width: fit-content;
+    max-width: 1000px;
     text-align: center;
     background-color: rgb(179, 231, 130);
 }
