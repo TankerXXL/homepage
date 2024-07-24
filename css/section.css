@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+.section {
+    max-width: 1000px;
+}
+
 .section__header {
     font-size: 24px;
     text-shadow: 7px 5px 5px rgb(42, 177, 25);
